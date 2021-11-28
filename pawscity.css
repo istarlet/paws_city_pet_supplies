@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .top__container {
+    background-color: #003964;
+    color: #fff;
+    padding: 1em 0;
+  }
+  
+  .search__container {
+    background-color: #074980;
+    color: #fff;
+    padding: 1em 0;
+  }
+  
+  .nav__container {
+    background-color: #f88824;
+    color: #fff;
+    padding: 1em 0;
+  }
+  
+  .header__container {
+    background-color: #f88824;
+    color: #fff;
+    padding: 1em 0;
+  }
+  
+  .shop__container {
+    background-color: #fff;
+    color: #000;
+    padding: 1em 0;
+  }
+  
+  .aboutdoggo__container {
+    background-color: #074980;
+    color: #fff;
+    padding: 1em 0;
+  }
+  
+  .aboutpaws__container {
+    background-color: #f85c62;
+    color: #fff;
+    padding: 1em 0;
+  }
+  
+  .testimonial__container {
+    background-color: #eff3f7;
+    color: #fff;
+    padding: 1em 0;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .fw__bold {
+    font-weight: 900;
+  }
+  
+  .tt__uppercase {
+    text-transform: uppercase;
+  }
+  
+  .dark__blue {
+    color: #003964;
+  }
+  
+  .shop__grid {
+    display: grid;
+  
+    grid-template-areas:
+      "dogs"
+      "cats"
+      "birds"
+      "fish"
+      "reptiles";
+  
+    gap: 2em;
+  }
+  
+  #dogs {
+    grid-area: dogs;
+  }
+  
+  #cats {
+    grid-area: cats;
+  }
+  
+  #birds {
+    grid-area: birds;
+  }
+  
+  #fish {
+    grid-area: fish;
+  }
+  
+  #reptiles {
+    grid-area: reptiles;
+  }
+  
+  @media screen and (min-width: 530px) {
+    .shop__grid {
+      grid-template-areas:
+        "dogs dogs cats"
+        "birds fish reptiles";
+    }
+  }
+  
