@@ -11,6 +11,10 @@
     max-width: 1100px;
     margin: 0 auto;
   }
+
+  img {
+      max-width: 100%;
+  }
   
   .top__container {
     background-color: #003964;
@@ -93,13 +97,21 @@
   
     gap: 2em;
   }
+
+  .shop__grid > div img {
+    max-width: 100%;
+  }
   
   #dogs {
     grid-area: dogs;
+    background-image: url(images/dogs.jpg);
   }
   
   #cats {
     grid-area: cats;
+    /*
+    background-image: url(images/cats.jpg);
+    */
   }
   
   #birds {
