@@ -1,1 +1,1 @@
-# paws_city_pet_supplies
+# Paws City Pet Supplies
